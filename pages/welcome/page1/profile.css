@@ -1,37 +1,36 @@
-
 .profile {
-    padding: 2em;
-    max-width: 500px;
+  padding: 2em;
+  max-width: 500px;
 }
 .profile__header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .profile_pciture {
-    border-radius: 50%;
-    width: 70%;
+  border-radius: 50%;
+  width: 70%;
 }
 
 .profile__profil-name-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .profile__Tag-list {
-    display: flex;
-    padding-left: 0;
+  display: flex;
+  padding-left: 0;
 }
 
 .tag {
-    display: flex;
-    justify-content: center;
-    padding: 0.8em;
-    background-color: blue;
-    border-radius: 10px;
-    color: white;
-    font-weight: 800;
-    margin: 10px 0;
-    font-size: 0.8em;
-  }
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
