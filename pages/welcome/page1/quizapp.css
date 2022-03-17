@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+  height: 812px;
+  background-color: brown;
+}
+
+.quizapp {
+  font-size: 2rem;
+  background-color: red;
+  padding: 1em;
+  color: white;
+}
+
+.question {
+  margin: 20px;
+  
+}
+
+.question1 {
+  position: relative;
+
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, -4);
+  border-radius: 20px;
+  background: whitesmoke;
+}
+
+.question2 {
+  color: black;
+  position: relative;
+
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, -4);
+  border-radius: 20px;
+  background: whitesmoke;
+}
+
+.question3 {
+  color: black;
+  position: relative;
+
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, -4);
+  border-radius: 20px;
+  background: whitesmoke;
+}
+
+/* ======================================== */
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aqua;
+  position: fixed;
+  padding: 1em;
+}
+
+.question {
+  position: relative;
+  border-radius: 25px;
+  width: 300px;
+  padding: 2em;
+  box-shadow: 0px 10px 15px -3px;
+
+}
+
+.question_bookmark {
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  font-size: 50px;
+}
+
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.question_button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.question_button {
+  padding: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+
+
+
+.question_tag-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  margin: 10px 0;
+  font-size: 0.8em;
+}

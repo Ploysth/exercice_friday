@@ -19,5 +19,8 @@
     "@storybook/html": "^6.4.19",
     "babel-loader": "^8.2.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "sb": "^6.4.19",
+    "storybook": "^6.4.19"
+  }
 }
